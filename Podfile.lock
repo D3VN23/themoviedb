@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (5.4.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - RealmSwift (3.15.0):
+    - Realm (= 3.15.0)
+  - Result (4.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - Moya (~> 13.0)
+  - RealmSwift
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Realm
+    - RealmSwift
+    - Result
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 516ffc03715b16825e7fa7a6b0743fb5bf24641c
+
+COCOAPODS: 1.6.1

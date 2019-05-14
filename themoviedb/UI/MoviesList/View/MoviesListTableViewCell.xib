@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MoviesListTableViewCell" rowHeight="273" id="TOY-ey-wER" customClass="MoviesListTableViewCell" customModule="themoviedb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="273"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TOY-ey-wER" id="TT5-UR-baV">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="272.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avengers: Endgame (2019)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5n0-7P-H6v">
+                        <rect key="frame" x="117" y="15" width="282" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="ypM-qE-rfn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R4D-zn-Fsm">
+                        <rect key="frame" x="15" y="15" width="92" height="138"/>
+                        <color key="backgroundColor" red="0.94488746759999998" green="0.94488746759999998" blue="0.94488746759999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="92" id="CqA-Pl-3Au"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="138" id="EJg-YR-Yp8"/>
+                            <constraint firstAttribute="width" constant="92" id="aME-wT-r8G"/>
+                            <constraint firstAttribute="height" constant="138" id="dQw-6K-cSE"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikp-f6-3Dw">
+                        <rect key="frame" x="15" y="65" width="384" height="192.5"/>
+                        <string key="text">After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.
+</string>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="textContainer.lineFragmentPadding">
+                                <integer key="value" value="0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/10/2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHB-Sv-7aw">
+                        <rect key="frame" x="117" y="40" width="282" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="pRk-fJ-ddh"/>
+                            <constraint firstAttribute="height" constant="25" id="yGE-FP-sfu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5n0-7P-H6v" firstAttribute="leading" secondItem="R4D-zn-Fsm" secondAttribute="trailing" constant="10" id="2rA-Xw-t3w"/>
+                    <constraint firstItem="ikp-f6-3Dw" firstAttribute="leading" secondItem="TT5-UR-baV" secondAttribute="leading" constant="15" id="ECR-pC-V01"/>
+                    <constraint firstItem="LHB-Sv-7aw" firstAttribute="leading" secondItem="R4D-zn-Fsm" secondAttribute="trailing" constant="10" id="HZV-BB-cHo"/>
+                    <constraint firstItem="ikp-f6-3Dw" firstAttribute="top" secondItem="LHB-Sv-7aw" secondAttribute="bottom" id="Og8-7g-gPp"/>
+                    <constraint firstItem="ikp-f6-3Dw" firstAttribute="top" secondItem="LHB-Sv-7aw" secondAttribute="bottom" id="POw-11-kLA"/>
+                    <constraint firstItem="LHB-Sv-7aw" firstAttribute="top" secondItem="5n0-7P-H6v" secondAttribute="bottom" id="drD-sN-XED"/>
+                    <constraint firstAttribute="trailing" secondItem="LHB-Sv-7aw" secondAttribute="trailing" constant="15" id="iBR-Pt-el4"/>
+                    <constraint firstAttribute="trailing" secondItem="5n0-7P-H6v" secondAttribute="trailing" constant="15" id="kLK-dd-7eq"/>
+                    <constraint firstAttribute="bottom" secondItem="ikp-f6-3Dw" secondAttribute="bottom" constant="15" id="kyH-Pj-ye2"/>
+                    <constraint firstItem="5n0-7P-H6v" firstAttribute="top" secondItem="TT5-UR-baV" secondAttribute="top" constant="15" id="r1Z-qH-vIM"/>
+                    <constraint firstAttribute="trailing" secondItem="ikp-f6-3Dw" secondAttribute="trailing" constant="15" id="sqR-sv-Im1"/>
+                    <constraint firstItem="LHB-Sv-7aw" firstAttribute="leading" secondItem="R4D-zn-Fsm" secondAttribute="trailing" constant="10" id="uG7-5b-xK6"/>
+                    <constraint firstItem="R4D-zn-Fsm" firstAttribute="top" secondItem="TT5-UR-baV" secondAttribute="top" constant="15" id="w0B-jU-Uu5"/>
+                    <constraint firstItem="R4D-zn-Fsm" firstAttribute="leading" secondItem="TT5-UR-baV" secondAttribute="leading" constant="15" id="ySv-qC-uMc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionTextView" destination="ikp-f6-3Dw" id="DGZ-jW-ekl"/>
+                <outlet property="nameLabel" destination="5n0-7P-H6v" id="Gs0-HA-eOm"/>
+                <outlet property="posterImageView" destination="R4D-zn-Fsm" id="KAf-M8-3kQ"/>
+                <outlet property="releaseDateLabel" destination="LHB-Sv-7aw" id="sVw-CZ-UlK"/>
+            </connections>
+            <point key="canvasLocation" x="-170" y="198"/>
+        </tableViewCell>
+    </objects>
+</document>
