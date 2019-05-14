@@ -13,3 +13,7 @@ According to the task a simple and clean architectural solution was chosen. Appl
  3. Implement tests for existing presenters (is not finished due to the lack of time, examples available [here](https://github.com/D3VN23/home24/blob/master/Home24TestTests/ArticleSelectionPresenterTests.swift) or on request).
  4. Make `Router` as initialiser of module when more layers come instead of initialiing controller with direct presenter passing.
  5. Add errors handlers.
+ 
+ # Short example
+ 
+ ![](example.gif)
